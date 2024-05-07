@@ -3,6 +3,7 @@
 ## Overview
 This project aims to develop a predictive model for aneurysms using machine learning techniques. By analyzing patient data and aneurysm characteristics, we seek to identify patterns and predictors that can help in early detection and intervention. The Jupyter Notebook `Aneurysm_Prediction.ipynb` contains the code and methodology for preprocessing data, training models, and evaluating their performance.
 
+The contents of this repository have been submitted for consideration to a scholarly journal and are subject to copyright protection. Unauthorized duplication or reproduction is prohibited. 
 ## Prerequisites
 To run this notebook, you need the following installed:
 - Python 3.x
