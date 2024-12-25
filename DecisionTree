@@ -1,0 +1,13 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<IsCluster &le; 0.5<br/>gini = 0.519<br/>samples = 103<br/>value = [13, 66, 24]<br/>class = Cluster 1>, fillcolor="#96f1bc"] ;
+1 [label=<vesselDiameter &le; 1.651<br/>gini = 0.275<br/>samples = 79<br/>value = [13, 66, 0]<br/>class = Cluster 1>, fillcolor="#60ea9a"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.0<br/>samples = 13<br/>value = [13, 0, 0]<br/>class = Cluster 0>, fillcolor="#e58139"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 66<br/>value = [0, 66, 0]<br/>class = Cluster 1>, fillcolor="#39e581"] ;
+1 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 24<br/>value = [0, 0, 24]<br/>class = Cluster 2>, fillcolor="#8139e5"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
